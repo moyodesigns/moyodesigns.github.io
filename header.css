@@ -1,0 +1,234 @@
+.imgheader{
+    width:7%;
+    padding:0%;
+}
+
+.header27{
+    position:fixed;
+    
+    
+}
+
+@media screen and (max-width: 992px) {
+    .imgheader{
+        width:10%;
+    }
+  }
+   
+  @media screen and (max-width: 992px) {
+    .header27{
+        padding: -80px;
+        
+        
+    }
+  }
+  @media screen and (max-width: 992px) {
+    .bars{
+      margin-top: -50px;
+        
+    }
+  }
+
+
+
+
+.sidebar{
+    background-color: #450920;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.logotitle{
+    font-weight: bold;
+    color: #450920;
+   
+}
+
+.hello{
+    color:450920;
+    font-weight: bold;
+}
+
+.hello2{
+    color:#DA627D;
+}
+
+.projects{
+    background-color:#F8EDEB;
+}
+
+.projectstitle{
+    color:#450920 ;
+    font-weight: bold;
+}
+
+.waves{
+    background-color:#F8EDEB;
+}
+
+.contact{
+    color:#ffffff;
+    font-weight: bold;
+    
+}
+.contact1{
+    color:#ffffff
+    ;
+}
+
+.svg1{
+    display: block;
+    position: relative;
+}
+
+
+.textdecor{
+  text-decoration: none;
+}
+
+
+
+
+
+/*Waves*/
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding-top: 100px;
+  }
+
+  
+  .red {
+    background:#450920;
+  }
+
+  
+
+  
+  /* Curved bg with SVG via https://www.shapedivider.app/ */
+
+  .wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  }
+
+  .wave svg {
+    position: relative;
+    display: block;
+    width: calc(103% + 1.3px);
+    height: 262px;
+  }
+
+  .wave .shape-fill {
+    fill: #F8EDEB;;
+  }
+
+  /* SVG background image via https://haikei.app/ */
+
+  .spacer {
+    aspect-ratio: 960/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .layer1 {
+    background-image: url('./layer1.svg');
+  }
+  /*End of Waves*/
+
+  /*button*/
+ 
+/* CSS */
+.button-56 {
+  align-items: center;
+  background-color: #FFA5AB;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration:none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-56:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+ 
+}
+
+
+.button-56:hover:after {
+  transform: translate(0, 0);
+}
+
+.button-56:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.button-56:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-56 {
+    padding: 0 40px;
+  }
+}
+
+
+
+.copyrght{
+    color: #F8EDEB;
+}
+
+
+.textdecor2{
+  text-decoration: none;
+}
+
+
+
+
+

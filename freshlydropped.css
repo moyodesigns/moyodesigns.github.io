@@ -1,0 +1,124 @@
+@import url(https://fonts.googleapis.com/css?family=Hind);
+
+.rectangle{
+    background-color:#F8EDEB;
+}
+
+
+.rectangletext{
+    font-weight: bold;
+    color: #450920;
+    font-size: 30px;
+}
+
+
+.overviewtext{
+font-weight:500;
+    color: #450920;
+}
+
+.screenheadertext{
+    font-weight:700;
+}
+
+.image{
+    filter: drop-shadow(3px 10px 10px  grey);
+}
+
+
+
+.finalpro{
+    background-color:#B7E4C7;
+}
+
+
+
+
+
+.header21{
+    margin-top: 0%;
+}
+
+@media screen and (max-width: 992px) {
+    .header21{
+        margin-top: 50px;
+    }
+  }
+
+
+
+  .designtxt{
+    margin-top: 80px;
+  }
+
+
+  .freshdrp{
+   margin-left:150px;
+   margin-top:-60px;
+   font-family:sans-serif;
+   
+  }
+
+  .hrs{
+    margin-top:70px;
+  }
+.hd{
+    font-size:12px;
+    color: darkgray;
+}
+
+.hd2{
+    font-size:23px;
+    font-family:"Hind";
+    font-weight: 500;
+    
+
+}
+  .hd3{
+    font-size:13px;
+    font-family:"Hind";
+    font-weight:600;
+  }
+
+  .square {
+    height: 130px;
+    width: 130px;
+    background-color:#3CBA92;
+    border-radius: 12px;
+  }
+
+  .square2 {
+    margin-left:170px;
+    margin-top:-130px;
+    height: 70px;
+    width: 130px;
+    background-color:#0BA360;
+    border-radius: 12px;
+  }
+  .square3{
+    margin-left:170px;
+    margin-top:15px;
+    height: 70px;
+    width: 130px;
+    background-color:#D9D9D9;
+    border-radius: 12px;
+  }
+
+  .psqr{
+    margin-left: 10px;
+   color: white;
+   font-family:poppins;
+   font-weight: 400;
+   
+  }
+  .psqr2{
+    margin-left: 10px;
+   color:black;
+   font-family:poppins;
+   font-weight: 400;
+   
+  }
+
+  .hrs2{
+    margin-top:40px;
+  }
